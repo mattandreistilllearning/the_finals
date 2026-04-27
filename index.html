@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Matt Andrei Revilla — Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- ── CURSOR GLOW ── -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- ════════════ NAVIGATION ════════════ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        MAR<span>.</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home"     class="nav-link">Home</a></li>
+        <li><a href="#about"    class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact"  class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-hire">Hire Me</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ════════════ HOME ════════════ -->
+  <section id="home">
+    <div class="home-bg">
+      <div class="blob b1"></div>
+      <div class="blob b2"></div>
+      <div class="blob b3"></div>
+      <div class="dots-grid"></div>
+    </div>
+
+    <div class="home-wrap">
+      <!-- Left -->
+      <div class="home-left">
+        <div class="status-pill">
+          <span class="status-ring"></span>
+          Open to Collaboration
+        </div>
+
+        <h1 class="home-h1">
+          <span class="h1-hi">Hello, I'm</span>
+          <span class="h1-name">Matt Andrei</span>
+          <span class="h1-last">Revilla<span class="accent-dot">.</span></span>
+        </h1>
+
+        <p class="home-bio">
+          A passionate BS Information Technology student specializing in 
+          web development and user experience. Currently enrolled in 
+          <strong>ITE 399</strong> — turning ideas into clean, 
+          functional digital solutions.
+        </p>
+
+        <div class="skill-pills">
+          <span>💻 Web Dev</span>
+          <span>🎨 UI Design</span>
+          <span>📱 Responsive</span>
+          <span>♿ A11y</span>
+        </div>
+
+        <div class="home-btns">
+          <a href="#projects" class="btn-glow">View Projects</a>
+          <a href="#contact"  class="btn-border">Say Hello</a>
+        </div>
+      </div>
+
+      <!-- Right -->
+      <div class="home-right">
+        <div class="photo-frame">
+          <!-- Rotating rings -->
+          <div class="ring ring-1"></div>
+          <div class="ring ring-2"></div>
+          <div class="ring ring-3"></div>
+          <!-- Profile -->
+          <div class="photo-circle">
+            <img src="image/profile.jpg" alt="Matt Andrei Revilla" class="profile-img"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"/>
+          </div>
+          <!-- Corner badges -->
+          <div class="badge-tl">🎓 BS IT</div>
+          <div class="badge-br">📘 ITE 399</div>
+        </div>
+
+        <!-- Side stats -->
+        <div class="side-stats">
+          <div class="stat-box">
+            <div class="stat-n">3<span>+</span></div>
+            <div class="stat-l">Projects</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-n">4<span>+</span></div>
+            <div class="stat-l">Skills</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-n">1<span>×</span></div>
+            <div class="stat-l">Deployed</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-down">
+      <div class="sd-icon">↓</div>
+      <span>Scroll</span>
+    </a>
+  </section>
+
+  <!-- ════════════ ABOUT ════════════ -->
+  <section id="about">
+    <div class="sec-wrap">
+
+      <div class="sec-head reveal">
+        <span class="sec-tag">Who I Am</span>
+        <h2 class="sec-title">About <span>Me</span></h2>
+        <div class="sec-line" id="l1"></div>
+      </div>
+
+      <div class="about-layout">
+
+        <!-- Bio side -->
+        <div class="about-left reveal">
+          <div class="bio-card">
+            <div class="bio-text">
+              <h3>Matt Andrei Revilla</h3>
+              <p class="bio-role">BS Information Technology Student</p>
+            </div>
+          </div>
+
+          <div class="bio-body">
+            <p>
+              Hi! I'm <strong>Matt Andrei Revilla</strong>, an IT student
+              with a deep interest in building beautiful, user-friendly
+              web applications that solve real-world problems.
+            </p>
+            <p>
+              Through <strong>ITE 399</strong>, I've had the opportunity to
+              apply HCI principles — usability, accessibility, and responsive
+              design — in real project environments. I believe technology
+              should feel effortless to the people who use it.
+            </p>
+            <p>
+              When I'm not coding, I enjoy exploring UI design trends,
+              tinkering with animations, and learning about human-centered
+              design methodologies.
+            </p>
+          </div>
+
+          <!-- Quick info -->
+          <div class="quick-info">
+            <div class="qi-item">
+              <span class="qi-icon">🌏</span>
+              <div>
+                <div class="qi-label">Location</div>
+                <div class="qi-val">Philippines</div>
+              </div>
+            </div>
+            <div class="qi-item">
+              <span class="qi-icon">📧</span>
+              <div>
+                <div class="qi-label">Email</div>
+                <div class="qi-val">matt.revilla@example.com</div>
+              </div>
+            </div>
+            <div class="qi-item">
+              <span class="qi-icon">🔧</span>
+              <div>
+                <div class="qi-label">Tools</div>
+                <div class="qi-val">VS Code · GitHub · Figma</div>
+              </div>
+            </div>
+            <div class="qi-item">
+              <span class="qi-icon">🚀</span>
+              <div>
+                <div class="qi-label">Deploy</div>
+                <div class="qi-val">GitHub Pages · Netlify</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skills side -->
+        <div class="about-right reveal">
+          <h3 class="skills-title">Technical Skills</h3>
+
+          <div class="skill-bars">
+            <div class="sbar">
+              <div class="sbar-top">
+                <span class="sbar-name">HTML & CSS</span>
+                <span class="sbar-pct">88%</span>
+              </div>
+              <div class="sbar-track">
+                <div class="sbar-fill" data-w="0.88"></div>
+              </div>
+            </div>
+            <div class="sbar">
+              <div class="sbar-top">
+                <span class="sbar-name">JavaScript</span>
+                <span class="sbar-pct">72%</span>
+              </div>
+              <div class="sbar-track">
+                <div class="sbar-fill" data-w="0.72"></div>
+              </div>
+            </div>
+            <div class="sbar">
+              <div class="sbar-top">
+                <span class="sbar-name">Java</span>
+                <span class="sbar-pct">78%</span>
+              </div>
+              <div class="sbar-track">
+                <div class="sbar-fill" data-w="0.78"></div>
+              </div>
+            </div>
+            <div class="sbar">
+              <div class="sbar-top">
+                <span class="sbar-name">UI/UX Design</span>
+                <span class="sbar-pct">70%</span>
+              </div>
+              <div class="sbar-track">
+                <div class="sbar-fill" data-w="0.70"></div>
+              </div>
+            </div>
+            <div class="sbar">
+              <div class="sbar-top">
+                <span class="sbar-name">Responsive Design</span>
+                <span class="sbar-pct">83%</span>
+              </div>
+              <div class="sbar-track">
+                <div class="sbar-fill" data-w="0.83"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interest cards -->
+          <h3 class="skills-title" style="margin-top:2.5rem">Education & Interests</h3>
+          <div class="interest-grid">
+            <div class="int-card">
+              <div class="int-icon">🎓</div>
+              <div class="int-label">Degree</div>
+              <div class="int-val">BS Information Technology</div>
+            </div>
+            <div class="int-card">
+              <div class="int-icon">📚</div>
+              <div class="int-label">Section</div>
+              <div class="int-val">ITE 399</div>
+            </div>
+            <div class="int-card">
+              <div class="int-icon">🎯</div>
+              <div class="int-label">Focus</div>
+              <div class="int-val">HCI & Web Dev</div>
+            </div>
+            <div class="int-card">
+              <div class="int-icon">💡</div>
+              <div class="int-label">Interests</div>
+              <div class="int-val">UI Trends & Animation</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════ PROJECTS ════════════ -->
+  <section id="projects">
+    <div class="sec-wrap">
+
+      <div class="sec-head reveal">
+        <span class="sec-tag">My Work</span>
+        <h2 class="sec-title">Projects & <span>Portfolio</span></h2>
+        <div class="sec-line" id="l2"></div>
+      </div>
+
+      <div class="proj-grid">
+
+        <!-- Project 1 -->
+        <div class="proj-card reveal">
+          <div class="pc-top">
+            <div class="pc-num">01</div>
+            <div class="pc-icon">☕</div>
+          </div>
+          <span class="pc-tag">Java · GUI</span>
+          <h3 class="pc-title">Campus Café Ordering System</h3>
+          <p class="pc-desc">
+            A Java Swing desktop application that simulates a café ordering
+            system — featuring menu browsing, order management, receipt
+            generation, and an intuitive GUI built with HCI principles.
+          </p>
+          <div class="pc-tech">
+            <span>Java</span><span>Swing</span><span>JFrame</span><span>OOP</span>
+          </div>
+          <div class="pc-footer">
+            <span class="pc-status live">● Live</span>
+            <span class="pc-arrow">View →</span>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="proj-card reveal">
+          <div class="pc-top">
+            <div class="pc-num">02</div>
+            <div class="pc-icon">🌐</div>
+          </div>
+          <span class="pc-tag">Web · HCI</span>
+          <h3 class="pc-title">Student Resource Hub</h3>
+          <p class="pc-desc">
+            A responsive web portal designed for IT students to access
+            study materials, project references, and academic tools —
+            applying WCAG accessibility standards and mobile-first design.
+          </p>
+          <div class="pc-tech">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>WCAG</span>
+          </div>
+          <div class="pc-footer">
+            <span class="pc-status live">● Live</span>
+            <span class="pc-arrow">View →</span>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="proj-card reveal">
+          <div class="pc-top">
+            <div class="pc-num">03</div>
+            <div class="pc-icon">👤</div>
+          </div>
+          <span class="pc-tag">HCI · Design</span>
+          <h3 class="pc-title">Personal Portfolio Website</h3>
+          <p class="pc-desc">
+            This portfolio — built as my ITE 399 final project. Demonstrates
+            HCI principles: usability, visual hierarchy, accessibility, and
+            fully responsive layout, deployed live via GitHub Pages.
+          </p>
+          <div class="pc-tech">
+            <span>HTML</span><span>CSS</span><span>JS</span><span>GitHub Pages</span>
+          </div>
+          <div class="pc-footer">
+            <span class="pc-status live">● Live</span>
+            <span class="pc-arrow">View →</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════ CONTACT ════════════ -->
+  <section id="contact">
+    <div class="sec-wrap">
+
+      <div class="sec-head reveal">
+        <span class="sec-tag">Get in Touch</span>
+        <h2 class="sec-title">Let's <span>Connect</span></h2>
+        <div class="sec-line" id="l3"></div>
+      </div>
+
+      <div class="contact-layout">
+
+        <!-- Left -->
+        <div class="contact-left reveal">
+          <p class="contact-desc">
+            Have a project idea, a collaboration proposal, or just want
+            to say hello? I'm always open to new conversations — feel
+            free to reach out!
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:matt.revilla@example.com" class="cl-item">
+              <div class="cl-ico">✉️</div>
+              <div class="cl-info">
+                <div class="cl-label">Email</div>
+                <div class="cl-val">matt.revilla@example.com</div>
+              </div>
+              <span class="cl-arr">→</span>
+            </a>
+            <a href="https://github.com/" target="_blank" class="cl-item">
+              <div class="cl-ico">🐙</div>
+              <div class="cl-info">
+                <div class="cl-label">GitHub</div>
+                <div class="cl-val">github.com/mattrevilla</div>
+              </div>
+              <span class="cl-arr">→</span>
+            </a>
+            <a href="https://linkedin.com/" target="_blank" class="cl-item">
+              <div class="cl-ico">💼</div>
+              <div class="cl-info">
+                <div class="cl-label">LinkedIn</div>
+                <div class="cl-val">linkedin.com/in/mattrevilla</div>
+              </div>
+              <span class="cl-arr">→</span>
+            </a>
+            <a href="#" class="cl-item">
+              <div class="cl-ico">🌐</div>
+              <div class="cl-info">
+                <div class="cl-label">Website</div>
+                <div class="cl-val">www.mattrevilla.com</div>
+              </div>
+              <span class="cl-arr">→</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Form -->
+        <form class="contact-form reveal" id="contactForm">
+          <div class="cf-row">
+            <div class="cf-group">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" placeholder="Juan" required/>
+            </div>
+            <div class="cf-group">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" placeholder="dela Cruz" required/>
+            </div>
+          </div>
+          <div class="cf-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="juan@email.com" required/>
+          </div>
+          <div class="cf-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="What's this about?" required/>
+          </div>
+          <div class="cf-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Tell me more..." required></textarea>
+          </div>
+          <button type="submit" class="btn-glow cf-submit" id="submitBtn">
+            Send Message →
+          </button>
+          <div class="cf-success" id="formSuccess">
+            ✅ Message sent! I'll get back to you soon.
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════ FOOTER ════════════ -->
+  <footer>
+    <div class="foot-inner">
+      <div class="foot-logo">MAR<span>.</span></div>
+      <p class="foot-copy"></p>
+      <p class="foot-built">Built with HTML, CSS & JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
